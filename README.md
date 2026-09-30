@@ -27,6 +27,13 @@ End-to-end ML pipeline: messy data → clean prediction (342 samples, mixed type
 - Simpson's Paradox analysis (bill_depth correlation flip)
 - **Test R² = 0.88, RMSE = 287g**
 
+### 04 — Walmart Sales (Linear Regression from Scratch)
+Predicting weekly sales from store, time and economic features (Walmart Store Sales dataset).
+- Time-based train/test split (no random shuffling — respects chronological order)
+- Normal Equation and gradient descent implemented from scratch, compared against sklearn
+- EDA: correlation heatmap, time patterns, feature relationships
+- Feature scaling, residual analysis, feature importance by weight magnitude
+
 ## Tech Stack
 Python, NumPy, pandas, matplotlib, seaborn, scikit-learn
 
